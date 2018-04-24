@@ -6,4 +6,7 @@
   - Linux: 
   - MacOS: 
 
-#### 2. Run the code from the project directory
+#### 2. Unzip the data
+  - Unzip 'data/data.zip'
+
+#### 3. Run the code from the project root directory
