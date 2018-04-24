@@ -6,7 +6,8 @@
   - Linux: 
   - MacOS: 
 
-#### 2. Unzip the data
-  - Unzip 'data/data.zip'
+#### 2. Get the data
+  - Get the data from: https://drive.google.com/a/sjsu.edu/file/d/19RE5-Dv_q0yLH10eBEeNlic6vsqme_Uf/view?usp=sharing
+  - Unzip into 'data/data.zip'
 
 #### 3. Run the code from the project root directory
