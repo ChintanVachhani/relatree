@@ -159,4 +159,4 @@ venv.bak/
 
 spark-warehouse/
 store/
-data/*.csv
+data/
