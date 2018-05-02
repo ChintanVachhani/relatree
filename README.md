@@ -14,13 +14,11 @@
 
 #### 3. Run the code from the project root directory
   - For item based recommendation:
-    Usage:<br/> ```
-    python item_recommender.py <group_id> <#_of_recommendations>
-    ```
+    Usage:<br/> 
+    `python item_recommender.py <group_id> <#_of_recommendations>`
     
   - For graph based recommendation:
-    Usage:<br/> ```
-    python graph_recommender.py <group_id> <#_of_recommendations> [<executor_memory>] [<#_of_executors>]
-    ```
+    Usage:<br/> 
+    `python graph_recommender.py <group_id> <#_of_recommendations> [<executor_memory>] [<#_of_executors>]`
     
     Note: The sample.txt file contains sample group ids that can be used to test the above models.
