@@ -5,6 +5,8 @@
 import os
 os.environ['PYSPARK_SUBMIT_ARGS'] = (
     '--jars lib/graphframes-release-0-5-0-assembly-0.5.0-spark2.1.jar pyspark-shell')
+import sys
+sys.path.append('./lib')
 import lib.graphframes as GF
 import operator
 from pyspark import SparkContext

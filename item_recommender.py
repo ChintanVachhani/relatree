@@ -4,11 +4,6 @@ from channel_recommendation import Recommender as reco
 import matplotlib.pyplot as plt
 import sys
 
-
-
-
-
-
 if __name__ == '__main__':
     if len(sys.argv) < 2:
         print('Please specify the group_id you want recommendation for.')
@@ -21,7 +16,7 @@ if __name__ == '__main__':
         except:
             print "Invalid number for recommendations."
     print "reading data"
-    train = pd.read_csv('../temp.csv')
+    train = pd.read_csv('store/utility_matrix.csv')
     print"done"
 
     re = reco(train)
