@@ -160,3 +160,4 @@ venv.bak/
 spark-warehouse/
 store/
 data/
+output/

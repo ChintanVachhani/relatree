@@ -23,8 +23,8 @@ if __name__ == '__main__':
 
     print "Getting top ", k," Recommendation for group: ", group
     recs = re.recommendation_engine(group, k)
-    with open("item_recommendations_for_"+str(group)+".csv","w+") as f:
+    with open("output/item_recommendations_for_"+str(group)+".csv","w+") as f:
         f.write('channel_id, score\n')
         for i in recs:
             f.write("%s,%s\n"%(str(i[0]),str(i[1])))
-    print "Recommendations saved. Location: item_recommendations_for_",str(group),".csv"
+    print "Recommendations saved. Location: item_recommendations_for_",str(group),".csv in output folder."
