@@ -1,7 +1,6 @@
 import build_matrix as bm
 import pandas as pd
 from channel_recommendation import Recommender as reco
-import matplotlib.pyplot as plt
 import sys
 
 if __name__ == '__main__':

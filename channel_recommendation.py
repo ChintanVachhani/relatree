@@ -36,7 +36,7 @@ class Recommender(object):
 
         '''
         self.df = df
-        self.describe()
+        #self.describe()
 
     def Jaccard_sim(self, ch1, ch2):
        
