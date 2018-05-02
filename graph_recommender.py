@@ -334,8 +334,8 @@ if __name__ == "__main__":
 		else:
 			# Saving Recommendations to File
 			with open('output/graph_recommendations_for_'+str(sys.argv[1])+'.csv','w') as f:
-			f.write('channel_id,score\n')
-			for r in result:
-				f.write(str(r[0])+','+str(r[1])+ '\n')
-			print('Recommendations saved to file named - graph_recommendations_for_'+str(sys.argv[1])+'.csv in output folder.')
+				f.write('channel_id,score\n')
+				for r in result:
+					f.write(str(r[0])+','+str(r[1])+ '\n')
+				print('Recommendations saved to file named - graph_recommendations_for_'+str(sys.argv[1])+'.csv in output folder.')
 
