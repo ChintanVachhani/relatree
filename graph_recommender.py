@@ -280,13 +280,13 @@ if __name__ == "__main__":
 		try:
 			k = int(sys.argv[2])
 		except:
-			print "Invalid number of recommendations."
+			print("Invalid number of recommendations.")
 		if len(sys.argv) > 3:
 			try:
 				# Create Spark context
 				sql_context = createContext(app_name="RelaTree", executor_memory=sys.argv[3], no_of_executors=sys.argv[4])
 			except:
-				print "Invalid system arguments."
+				print("Invalid system arguments.")
 		else:
 			sql_context = createContext(app_name="RelaTree")
 		
