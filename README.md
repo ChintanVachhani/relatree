@@ -13,11 +13,11 @@
   - Unzip 'store.zip' in root folder
 
 #### 3. Run the code from the project root directory
-  - For item based recommendation:
+  - For item based recommendation:<br/> 
     Usage:<br/> 
     `python item_recommender.py <group_id> <#_of_recommendations>`
     
-  - For graph based recommendation:
+  - For graph based recommendation:<br/> 
     Usage:<br/> 
     `python graph_recommender.py <group_id> <#_of_recommendations> [<executor_memory>] [<#_of_executors>]`
     
