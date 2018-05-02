@@ -108,7 +108,7 @@ class Recommender(object):
         
         '''
         sub_chans, unsub_chans = self.subscribed_channels(group)
-        print sub_chans, unsub_chans
+        #print sub_chans, unsub_chans
         sims = {}
         for unsub in unsub_chans:
             for sub in sub_chans:
