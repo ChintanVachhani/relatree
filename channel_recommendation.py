@@ -85,7 +85,7 @@ class Recommender(object):
             if rows['group_id'] == group:
                 print "group found..."
                 print "classifying channels..."               
-                for i in range(1,len(ch)):
+                for i in range(2,len(ch)):
                     if int(rows[ch[i]]) == 1:
                         sub_chans.append(ch[i])
                     else:
