@@ -9,7 +9,7 @@
 #### 2. Get the data
   - Get the data from: https://drive.google.com/a/sjsu.edu/file/d/19RE5-Dv_q0yLH10eBEeNlic6vsqme_Uf/view?usp=sharing
   - Unzip 'data.zip' in root directory
-  - Get stored graphs and utility matrix from: https://drive.google.com/open?id=1DmOaXf04q06TAODt9aSZpnin2lswY-aU
+  - Get stored graphs and utility matrix from: https://drive.google.com/open?id=1ffYzq1r0ObiVvNMFFswh4o1jSgH6Rcin
   - Unzip 'store.zip' in root directory
   - Create 'output' directory in root directory
 
